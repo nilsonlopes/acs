@@ -7,16 +7,16 @@ namespace Composer\Autoload;
 class ComposerStaticInitbb5f8b888964c00582dd968540aee368
 {
     public static $prefixLengthsPsr4 = array (
-        'A' => 
+        'B' => 
         array (
-            'ACS_CLASS\\' => 10,
+            'BancoConnect\\' => 13,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'ACS_CLASS\\' => 
+        'BancoConnect\\' => 
         array (
-            0 => __DIR__ . '/..' . '/ACS/php-classes/src',
+            0 => __DIR__ . '/..' . '/acs/php-classes/src',
         ),
     );
 

@@ -8,7 +8,7 @@ $app->config('debug', true);
 
 $app->get('/', function() {
     
-	$sql = new ACS_CLASS\DB\Sql();
+	$sql = new BancoConnect\DB\Sql();
 	
 	$results = $sql->select("SELECT * FROM tb_users");
 

@@ -6,5 +6,5 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'ACS_CLASS\\' => array($vendorDir . '/ACS/php-classes/src'),
+    'BancoConnect\\' => array($vendorDir . '/acs/php-classes/src'),
 );
